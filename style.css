@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #8BA0CA;
+}
+
+.container {
+    position: relative;
+}
+
+.black-keys {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    z-index: 1;
+    width: 100%;
+}
+
+.black-keys kbd {
+    border: 1px solid gray;
+    display: flex;
+    height: 100px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    font-size: 17px;
+}
+
+.white-keys {
+    display: flex;
+    gap: 5px;
+}
+
+.white-keys kbd {
+    border: 1px solid gray;
+    display: flex;
+    height: 200px;
+    width: 60px;
+    justify-content: center;
+    align-items: end;
+    background: white;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-weight: bold;
+}
